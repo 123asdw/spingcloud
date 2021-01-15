@@ -1,0 +1,20 @@
+server:
+  port: 9004
+
+
+
+
+
+
+spring:
+  application:
+    name: config-client
+
+
+
+eureka:
+  client:
+    #eureka·þÎñµØÖ·
+    service©\url:
+      defaultZone: http://localhost:8080/eureka
+
